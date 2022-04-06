@@ -16,8 +16,8 @@
 
 \section {Ejercicio 1}
 \begin{proc}{viajeValido}{$\In v: Viaje,\,\Out$res : \bool}{}{}
-\pre {((\forall i: \ent) (0\leq i < \longitud v)\implicaLuego verificadorGPS(v[i]_{1})) \yLuego   }
-\post a
+\pre {}
+\post {(\forall i: \ent) (((0\leq i < \longitud v)\implicaLuego verificadorGPS(v[i]_{1})) \yLuego 0 \leq v[i]_{0} < ??? )}
 \end{proc}
 
 \end{document}
